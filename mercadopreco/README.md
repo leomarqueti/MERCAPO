@@ -1,0 +1,87 @@
+# 🛒 MercadoPreço: Comparador de Preços em Tempo Real
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Playwright](https://img.shields.io/badge/Web%20Scraping-Playwright-green?style=for-the-badge&logo=playwright)](https://playwright.dev/)
+[![Rich](https://img.shields.io/badge/CLI%20UI-Rich-yellow?style=for-the-badge&logo=python)](https://github.com/Textualize/rich)
+
+## 🎯 Sobre o Projeto
+
+O **MercadoPreço** é uma aplicação de linha de comando (CLI) desenvolvida em Python que realiza web scraping em tempo real para comparar os preços de uma lista de produtos entre diferentes supermercados. O objetivo principal é identificar a opção de compra mais econômica para o consumidor.
+
+Este projeto demonstra competências em:
+*   **Web Scraping Assíncrono/Síncrono:** Utilização do Playwright para automação de navegador e extração de dados.
+*   **Engenharia de Dados:** Limpeza, transformação e estruturação de dados brutos (preços) para análise.
+*   **Desenvolvimento CLI:** Criação de uma interface de usuário rica e interativa utilizando a biblioteca Rich.
+*   **Modularização:** Organização do código em módulos (`services`, `routers`, `utils`) seguindo o princípio de Separação de Responsabilidades.
+
+## 🚀 Funcionalidades
+
+1.  **Criação de Tabela de Preços:** Coleta os preços dos produtos definidos em tempo real.
+2.  **Comparação Econômica:** Apresenta o menor preço por produto e calcula o valor total da cesta de compras mais econômica.
+3.  **Listagem Detalhada:** Exibe a lista completa de produtos e preços para cada mercado.
+
+## 💻 Demonstração Visual
+
+*Recrutador: Insira aqui os prints de tela do seu projeto em execução. Use o formato `![Descrição da Imagem](caminho/para/sua/imagem.png)`.*
+
+### Menu Principal
+![Captura de tela do menu principal do MercadoPreço, mostrando as opções de comparação e listagem.](assets/menu_principal.png)
+
+### Comparação de Preços
+![Captura de tela da comparação de preços, destacando o menor preço por item e o total da cesta econômica.](assets/comparacao_precos.png)
+
+## 🛠️ Tecnologias Utilizadas
+
+| Categoria | Tecnologia | Descrição |
+| :--- | :--- | :--- |
+| **Linguagem** | Python 3.x | Linguagem principal de desenvolvimento. |
+| **Web Scraping** | Playwright | Utilizado para simular a navegação do usuário e extrair dados dinâmicos dos sites. |
+| **Interface CLI** | Rich | Responsável pela formatação e estilização da saída no terminal (tabelas, cores, painéis). |
+| **Estrutura** | Modularização | Código organizado em `app/services` (lógica de negócio), `app/routers` (acesso a dados) e `app/utils` (funções auxiliares). |
+
+## ⚙️ Como Executar o Projeto
+
+Para rodar o MercadoPreço em sua máquina, siga os passos abaixo:
+
+### Pré-requisitos
+
+Certifique-se de ter o Python 3.x instalado.
+
+### 1. Clonar o Repositório
+
+```bash
+git clone [URL_DO_SEU_REPOSITORIO]
+cd mercadopreco
+```
+
+### 2. Instalar Dependências
+
+
+```bash
+# Instala as bibliotecas Python
+pip install -r requirements.txt
+
+# Instala os drivers de navegador necessários para o Playwright
+playwright install
+```
+
+### 3. Executar a Aplicação
+
+```bash
+python main.py
+```
+
+## 💡 Próximos Passos (Visão de Pleno)
+
+Para evoluir este projeto para um nível de produção e demonstrar maturidade de engenharia de software, as seguintes melhorias estão planejadas:
+
+*   **Configuração Externa:** Mover a lista de produtos, URLs e seletores CSS para um arquivo de configuração (YAML/JSON) para maior flexibilidade.
+*   **Testes Unitários:** Implementar testes com `pytest` para a lógica de negócio em `gerencia_preco.py`.
+*   **Type Hinting:** Adicionar anotações de tipo em todo o código para melhorar a manutenibilidade e o suporte a ferramentas de análise estática.
+*   **Refatoração de Arquitetura:** Revisar a nomenclatura dos módulos e o gerenciamento de estado (evitando variáveis globais).
+
+---
+
+## 👨‍💻 Autor
+
+**Leonardo Marqueti de Lima Sato**
