@@ -1,4 +1,4 @@
-# 🛒 MercadoPreço: Comparador de Preços em Tempo Real
+# 🛒 MERCAPO: Comparador de Preços em Tempo Real
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Playwright](https://img.shields.io/badge/Web%20Scraping-Playwright-green?style=for-the-badge&logo=playwright)](https://playwright.dev/)
@@ -6,7 +6,7 @@
 
 ## 🎯 Sobre o Projeto
 
-O **MercadoPreço** é uma aplicação de linha de comando (CLI) desenvolvida em Python que realiza web scraping em tempo real para comparar os preços de uma lista de produtos entre diferentes supermercados. O objetivo principal é identificar a opção de compra mais econômica para o consumidor.
+O **MercaPo** é uma aplicação de linha de comando (CLI) desenvolvida em Python que realiza web scraping em tempo real para comparar os preços de uma lista de produtos entre diferentes supermercados. O objetivo principal é identificar a opção de compra mais econômica para o consumidor.
 
 Este projeto demonstra competências em:
 *   **Web Scraping Assíncrono/Síncrono:** Utilização do Playwright para automação de navegador e extração de dados.
@@ -25,10 +25,14 @@ Este projeto demonstra competências em:
 *Recrutador: Insira aqui os prints de tela do seu projeto em execução. Use o formato `![Descrição da Imagem](caminho/para/sua/imagem.png)`.*
 
 ### Menu Principal
-![Captura de tela do menu principal do MercadoPreço, mostrando as opções de comparação e listagem.](assets/menu_principal.png)
+<img width="1108" height="461" alt="image" src="https://github.com/user-attachments/assets/ac87f56a-7da0-4765-9400-04cbea640d77" />
+
 
 ### Comparação de Preços
-![Captura de tela da comparação de preços, destacando o menor preço por item e o total da cesta econômica.](assets/comparacao_precos.png)
+<img width="672" height="306" alt="image" src="https://github.com/user-attachments/assets/7e9f6db1-2312-4ceb-ba62-5d968518f1b6" />
+<img width="786" height="485" alt="image" src="https://github.com/user-attachments/assets/1e42842e-4615-4189-9796-ca1eea2984a1" />
+
+
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -85,3 +89,4 @@ Para evoluir este projeto para um nível de produção e demonstrar maturidade d
 ## 👨‍💻 Autor
 
 **Leonardo Marqueti de Lima Sato**
+
