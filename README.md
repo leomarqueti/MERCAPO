@@ -22,8 +22,6 @@ Este projeto demonstra competências em:
 
 ## 💻 Demonstração Visual
 
-*Recrutador: Insira aqui os prints de tela do seu projeto em execução. Use o formato `![Descrição da Imagem](caminho/para/sua/imagem.png)`.*
-
 ### Menu Principal
 <img width="1108" height="461" alt="image" src="https://github.com/user-attachments/assets/ac87f56a-7da0-4765-9400-04cbea640d77" />
 
@@ -31,8 +29,6 @@ Este projeto demonstra competências em:
 ### Comparação de Preços
 <img width="672" height="306" alt="image" src="https://github.com/user-attachments/assets/7e9f6db1-2312-4ceb-ba62-5d968518f1b6" />
 <img width="786" height="485" alt="image" src="https://github.com/user-attachments/assets/1e42842e-4615-4189-9796-ca1eea2984a1" />
-
-
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -54,7 +50,7 @@ Certifique-se de ter o Python 3.x instalado.
 ### 1. Clonar o Repositório
 
 ```bash
-git clone [URL_DO_SEU_REPOSITORIO]
+git clone https://github.com/leomarqueti/MERCAPO.git
 cd mercadopreco
 ```
 
@@ -75,7 +71,7 @@ playwright install
 python main.py
 ```
 
-## 💡 Próximos Passos (Visão de Pleno)
+## 💡 Próximos Passos
 
 Para evoluir este projeto para um nível de produção e demonstrar maturidade de engenharia de software, as seguintes melhorias estão planejadas:
 
@@ -89,4 +85,5 @@ Para evoluir este projeto para um nível de produção e demonstrar maturidade d
 ## 👨‍💻 Autor
 
 **Leonardo Marqueti de Lima Sato**
+
 
